@@ -462,11 +462,11 @@ rs = pd.read_csv(".\\CogenSortie.csv", sep=';', decimal=',',skiprows=[1,2], na_v
 print("\n")
 
 parag.new(2,"Plot")
-print("tracer une colonne avec matplotlib --> rs['Elec_Grid Electricity Price'].plot()")
-rs['Elec_Grid Electricity Price'].plot()
-print("les 200 premieres lignes --> rs['Elec_Grid Electricity Price'][:200].plot()")
+print("tracer une colonne avec matplotlib --> rs['Power'].plot()")
+rs['Power'].plot()
+print("les 20 premieres lignes --> rs['Power'][:20].plot()")
 plt.figure()
-rs['Elec_Grid Electricity Price'][:200].plot()
+rs['Power'][:20].plot()
 
 parag.new(2,"Operations")
 print("Join:")

@@ -109,7 +109,7 @@ parag.new(2,"Chaines de caracteres")
 parag.new(3,"Manipulations de base")
 word = 'Py'+'thon'
 print("Concatener 2 chaines avec +  --> " + word)
-print("Premier caratere : word[0]   --> " + word[0])
+print("Premier caractere : word[0]   --> " + word[0])
 print("Dernier caractere : word[-1] --> " + word[-1])
 print("Caracteres 2 a 4 : word[1:3] --> " + word[1:3])
 print("Caracteres a partir du 3eme : word[2:] --> " + word[2:])

@@ -13,7 +13,6 @@ A faire:
 import os
 import platform
 
-
 if platform.system()=='Linux':
     os.chdir("/media/guillaume/ESD-ISO/Perso/python/")
 else:
@@ -27,6 +26,8 @@ class Parag:
         self.num = self.num[:level-1]+[self.num[level-1]+1]+[0] * (len(self.num)-level)
         s = ".".join(list(map(str, self.num[:level])))
         print(s+". "+titre)
+        if level==1:
+            print("====================================================================")
 
 parag=Parag()
 
@@ -101,8 +102,11 @@ print("pyzo est parfait: leger et facile. Se veut une alternative a Matlab")
 print("J'ai utilise Spyder au cours du projet Persee. Bien.")
 
 #----------------------------------------------------------------------------------
-parag.new(1,"Chaines de caracteres")
-parag.new(2,"Manipulations de base")
+parag.new(1,"Types de donnees")
+
+parag.new(2,"Chaines de caracteres")
+
+parag.new(3,"Manipulations de base")
 word = 'Py'+'thon'
 print("Concatener 2 chaines avec +  --> " + word)
 print("Premier caratere : word[0]   --> " + word[0])
@@ -114,12 +118,10 @@ print("Longueur d\'une chaine : len -> " + str(len(word)))
 print("Transformer une chaine en une liste de mots : chaine.split(char)")
 print("La simplicite est la sophistication ultime.".split(" "))
 
-parag.new(2,"Formatage: str.format()")
+parag.new(3,"Formatage: str.format()")
 print("Accolade / numero argument / ':' / format")
 print("Geeks :{0:2d}, Portal :{1:8.2f}".format(12, 0.546))
 
-#----------------------------------------------------------------------------------
-parag.new(1,"Types de donnees")
 parag.new(2,"Listes")
 carres = [1,2,49,16,25]
 print("carres = [1,2,49,16,25]")
@@ -221,6 +223,7 @@ print("math.cos(math.pi / 4) -->" + str(math.cos(math.pi / 4)))
 
 #----------------------------------------------------------------------------------
 parag.new(1,"Fichiers")
+parag.new(2,"Commandes de base")
 print("Pour ecrire dans un fichier, il faut utiliser 'open(xxx,a/w)' puis 'write()'")
 f = open("demofile2.txt", "a")
 f.write("Now the file has more content!")
@@ -236,6 +239,24 @@ if os.path.exists("demofile2.txt"):
 else:
     print("The file does not exist")
 
+#----------------------------------------------------------------------------------
+parag.new(2,"Serialisation - Pickle")
+print("Le but est d'écrire des structures de données complexes dans des fichiers pour pouvoir les relire plus tard.")
+print("On utilise la bibliothèque Pickle")
+
+import pickle
+dict1 = {"Guillaume":718, "Romain":1055, "Pierre":711}
+dict2 = {"Florian":782, "Francois":699, "Donatella":963}
+
+fh = open('out.ser','wb') #format binaire
+pickle.dump(dict1, fh)
+pickle.dump(dict2, fh)
+fh.close()
+fh = open('out.ser','rb')
+dict3 = pickle.load(fh)
+dict4 = pickle.load(fh)
+fh.close()
+print(dict3)
 #----------------------------------------------------------------------------------
 parag.new(1,"Bases de données")
 try:
@@ -467,6 +488,7 @@ rs['Power'].plot()
 print("les 20 premieres lignes --> rs['Power'][:20].plot()")
 plt.figure()
 rs['Power'][:20].plot()
+plt.show()
 
 parag.new(2,"Operations")
 print("Join:")
@@ -482,3 +504,6 @@ print('------')
 print("Ajout de col:")
 tot['sum'] = tot['lval']+tot['rval']
 print(tot)
+
+
+

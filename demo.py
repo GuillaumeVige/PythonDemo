@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#test github
+
 '''
 A faire:
  - generer un executable

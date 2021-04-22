@@ -16,7 +16,7 @@ import platform
 if platform.system()=='Linux':
     os.chdir("/media/guillaume/ESD-ISO/Perso/python/")
 else:
-    os.chdir("E:\Perso\python")
+    os.chdir("E:\Programmation\python")
 
 class Parag:
     def __init__(self): # Notre methode constructeur
@@ -163,6 +163,15 @@ nombre_de_pneus["vélo"] = 2
 print("Parcourir un dictionnaire:")
 for cle, valeur in nombre_de_pneus.items():
     print("l'élément de clé", cle, "vaut", valeur)
+#----------------------------------------------------------------------------------
+import re #regular expression
+text = '        mModel->add(mOn(t) - mState(t) <= 0,CName("cOn",t));'
+str1 = '->add\('
+str2 = '\);'
+strsearch=str1+'(.+?)'+str2
+#found est la chaine comprise entre str1 et str2
+found = re.search(strsearch, text).group(1)
+
 #----------------------------------------------------------------------------------
 parag.new(1,"Iterateurs")
 print("Un iterateur est un objet qui implemente les methodes __iter__() et __next__()")
@@ -426,7 +435,6 @@ import urllib.request  #Used to make requests
 x = urllib.request.urlopen("http://www.meteofrance.com/previsions-meteo-france/voiron/38500")
 respData=x.read()
 respData = respData.decode('UTF8')
-import re #regular expression
 print("Meteo Voiron")
 dates = re.findall(r'<dt><a>(.*?)</a></dt>',str(respData))
 min=re.findall(r'<span class="min-temp">(.*?)Minimale</span>',str(respData))
@@ -504,6 +512,15 @@ print('------')
 print("Ajout de col:")
 tot['sum'] = tot['lval']+tot['rval']
 print(tot)
-
+print('------')
+print("Groupby:")
+data = {"Team": ["Red Sox", "Red Sox", "Red Sox", "Red Sox", "Red Sox", "Red Sox", "Yankees", "Yankees", "Yankees", "Yankees", "Yankees", "Yankees"],
+		"Pos": ["Pitcher", "Pitcher", "Pitcher", "Not Pitcher", "Not Pitcher", "Not Pitcher", "Pitcher", "Pitcher", "Pitcher", "Not Pitcher", "Not Pitcher", "Not Pitcher"],
+		"Age": [24, 28, 40, 22, 29, 33, 31, 26, 21, 36, 25, 31]}
+df = pd.DataFrame(data)
+print(df)
+# group by Team, get mean, min, and max value of Age for each value of Team.
+grouped_single = df.groupby('Team').agg({'Age': ['mean', 'min', 'max']})
+print(grouped_single)
 
 

@@ -126,6 +126,7 @@ parag.new(2,"Listes")
 carres = [1,2,49,16,25]
 print("carres = [1,2,49,16,25]")
 print("Liste constante    : liste = [0]*7")
+print("Ajout d'un element : carres.append(36)")
 print("Acces a un element : carres[2]  --> " + str(carres[2]))
 print("Utilisation de ':' : carres[2:] --> " + str(carres[2:]))
 print("Utilisation de ':' : carres[:2] --> " + str(carres[:2]))

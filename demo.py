@@ -114,6 +114,7 @@ print("Dernier caractere : word[-1] --> " + word[-1])
 print("Caracteres 2 a 4 : word[1:3] --> " + word[1:3])
 print("Caracteres a partir du 3eme : word[2:] --> " + word[2:])
 print("Conversion d\'un nombre en chaine : str --> " + str(3.14))
+print("Conversion d\'une chaine en nombre: float --> ", float('3.14'))
 print("Longueur d\'une chaine : len -> " + str(len(word)))
 print("Transformer une chaine en une liste de mots : chaine.split(char)")
 print("La simplicite est la sophistication ultime.".split(" "))
@@ -121,6 +122,11 @@ print("La simplicite est la sophistication ultime.".split(" "))
 parag.new(3,"Formatage: str.format()")
 print("Accolade / numero argument / ':' / format")
 print("Geeks :{0:2d}, Portal :{1:8.2f}".format(12, 0.546))
+
+parag.new(3,"Regex")
+import re
+found =  re.search('bla_(.+?)_zip',"bla_28_zip")
+print(found.group(1))
 
 parag.new(2,"Listes")
 carres = [1,2,49,16,25]
@@ -232,6 +238,24 @@ import math
 print("math.cos(math.pi / 4) -->" + str(math.cos(math.pi / 4)))
 
 #----------------------------------------------------------------------------------
+parag.new(1,"Appel a la ligne de commande")
+parag.new(2,"Commande simple")
+import subprocess
+cmdCommand = 'ipconfig'   #specify your cmd command
+process = subprocess.Popen(cmdCommand, stdin = subprocess.PIPE, stdout = subprocess.PIPE)
+output, error = process.communicate()
+print(output)
+
+parag.new(2,"Commande avec arguments")
+#la commande suivante ne marche pas car je n'ai pas de dossier svn mais le msg d'erreur signifie
+#que la commande a été appelée par windows
+run_args = ['svn', 'commit', '-m', 'Automatic reference update', 'demo.py'] 
+process2 = subprocess.Popen(run_args, stdout=subprocess.PIPE)
+output, error = process2.communicate()
+print(output)
+
+#----------------------------------------------------------------------------------
+
 parag.new(1,"Fichiers")
 parag.new(2,"Commandes de base")
 print("Pour ecrire dans un fichier, il faut utiliser 'open(xxx,a/w)' puis 'write()'")
@@ -478,6 +502,8 @@ print('\nExtraire un bloc par position:')
 print(df.iloc[1, 1:2])
 print('\nExtraire sur des booleens')
 print(df[df>4])
+print('\nAssignement conditionnel')
+df.loc[df['max_speed']>4,'shield'] = -1
 print('\nAjouter une colonne (age en col 1):')
 df.insert(1, "age", [6, 4, 9])
 print(df)
@@ -489,6 +515,11 @@ print("\n")
 parag.new(2,"csv")
 print("Lire un fichier csv --> pd.read_csv()")
 rs = pd.read_csv(".\\CogenSortie.csv", sep=';', decimal=',',skiprows=[1,2], na_values=['nan'], na_filter=True)
+print("\n")
+
+print("Ecrire un df dans un fichier csv --> df.to_csv()")
+df = pd.DataFrame([[720, 'St Jean'], [710, 'St Jean'], [900, 'St Jean']], index=['Guillaume', 'Pierre', 'Jean-Luc'], columns=['Points', 'club'])
+df.to_csv('ping.csv', sep=';')
 print("\n")
 
 parag.new(2,"Plot")

@@ -256,22 +256,42 @@ print(output)
 
 #----------------------------------------------------------------------------------
 
-parag.new(1,"Fichiers")
+parag.new(1,"Fichiers et Datatime")
 parag.new(2,"Commandes de base")
 print("Pour ecrire dans un fichier, il faut utiliser 'open(xxx,a/w)' puis 'write()'")
 f = open("demofile2.txt", "a")
 f.write("Now the file has more content!")
 f.close()
-print("Pour lire une ligne d\'un fichier, il faut utiliser 'open(xxx,r)' puis 'readline()'")
+print("Pour lire une ligne d\'un fichier, il faut utiliser 'open(xxx,r)' puis 'read()'")
 f = open("demofile2.txt", "r")
-print(f.readline())
+print(f.read())
 f.close()
+
+
+import datetime as dt
+from pathlib import Path
+
+# Datatime comporte des classes Date, DateTime et Timedelta
+
+path = Path("demofile2.txt")
+timestamp = dt.date.fromtimestamp(path.stat().st_mtime)
+print(timestamp)
+if dt.date.today() == timestamp:
+    print("Le fichier a ete modifie aujourd'hui")
+    
+dt1 = dt.datetime.fromtimestamp(path.stat().st_mtime)
+dt2 = dt.datetime.now()
+delta = dt2 - dt1
+if delta < dt.timedelta(seconds=5):
+   print('Le fichier a ete cree il y a moins de 5 secondes')
+
 print("Pour supprimer un fichier, il faut utiliser 'os.remove()'")
 
 if os.path.exists("demofile2.txt"):
     os.remove("demofile2.txt")
 else:
     print("The file does not exist")
+
 
 #----------------------------------------------------------------------------------
 parag.new(2,"Serialisation - Pickle")

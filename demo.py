@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 
 '''
+SI JE N'AI PAS ACCES AU SHELL:
+Menu Shell|Configuration des shells
+Exe : F:\Apps\Python38\pythonw.exe
+'''
+
+'''
 A faire:
  - generer un executable
  - regex
@@ -16,7 +22,8 @@ import platform
 if platform.system()=='Linux':
     os.chdir("/media/guillaume/ESD-ISO/Perso/python/")
 else:
-    os.chdir("E:\Programmation\python")
+    #os.chdir("E:\Programmation\python")
+    os.chdir(os.getcwd())
 
 class Parag:
     def __init__(self): # Notre methode constructeur
@@ -94,12 +101,20 @@ print("Lancer l\'exe en configurant le dossier E:\Apps\Python38")
 print("Installer des packages: ")
 print("python -m pip install numpy")
 print("python -m pip install matplotlib")
-print("python -m pip install pytest")
+
+print('Dans la console de pyzo:')
+print("pip install pandas")
+
+print('4/11/2021 : j ai installé Spyder mais je ne parviens pas a installer des packages')
 
 parag.new(3,"Les IDE")
-print("PyCharm est tres complet mais tres lourd (700Mo) et complexe a utiliser")
-print("pyzo est parfait: leger et facile. Se veut une alternative a Matlab")
-print("J'ai utilise Spyder au cours du projet Persee. Bien.")
+print("cf commentaires")
+# PyCharm est tres complet mais tres lourd (700Mo) et complexe a utiliser"
+# pyzo est parfait: leger et facile. Se veut une alternative a Matlab")
+# J'ai utilise Spyder au cours du projet Persee. Super. 
+#      Installé sur une clé le 2/11/2021 (comprends Python)
+# Anaconda, utilisé au Cea. Tres bien (comprends Spyder, Scikit-learn...)
+#      par contre installation non portable
 
 #----------------------------------------------------------------------------------
 parag.new(1,"Types de donnees")
@@ -126,7 +141,31 @@ print("Geeks :{0:2d}, Portal :{1:8.2f}".format(12, 0.546))
 parag.new(3,"Regex")
 import re
 found =  re.search('bla_(.+?)_zip',"bla_28_zip")
-print(found.group(1))
+if found is not None:
+    print(found.group(1))
+    
+# def getModuleSet(chemin):
+#     classeSet = set()
+#     for root, dirs, files in os.walk(chemin):
+#         for name in files:
+#             if name.endswith('.h'):
+#                 hName = os.path.join(root,name)
+#                 hFile = open(hName,'r')
+#                 try:
+#                     content = hFile.read()
+#                     hFile.close()
+#                     pattern = "^class (.*?)$"
+#                     classeSet.update(re.findall(pattern, content, re.MULTILINE))
+#                 except:
+#                     pass
+#     return classeSet
+# 
+# pwd=os.getcwd()
+# print(pwd)
+# classeSet = getModuleSet(pwd+'\\..')
+# for c in classeSet:
+#     print(c)
+# sys.exit()
 
 parag.new(2,"Listes")
 carres = [1,2,49,16,25]
@@ -177,7 +216,9 @@ str1 = '->add\('
 str2 = '\);'
 strsearch=str1+'(.+?)'+str2
 #found est la chaine comprise entre str1 et str2
-found = re.search(strsearch, text).group(1)
+found = re.search(strsearch, text)
+if found is not None:
+    print(found.group(1))
 
 #----------------------------------------------------------------------------------
 parag.new(1,"Iterateurs")
@@ -249,11 +290,13 @@ print(output)
 parag.new(2,"Commande avec arguments")
 #la commande suivante ne marche pas car je n'ai pas de dossier svn mais le msg d'erreur signifie
 #que la commande a été appelée par windows
-run_args = ['svn', 'commit', '-m', 'Automatic reference update', 'demo.py'] 
-process2 = subprocess.Popen(run_args, stdout=subprocess.PIPE)
-output, error = process2.communicate()
-print(output)
-
+try:
+    run_args = ['svn', 'commit', '-m', 'Automatic reference update', 'demo.py'] 
+    process2 = subprocess.Popen(run_args, stdout=subprocess.PIPE)
+    output, error = process2.communicate()
+    print(output)
+except:
+    print('CreateProcess non disponible')
 #----------------------------------------------------------------------------------
 
 parag.new(1,"Fichiers et Datatime")
@@ -381,82 +424,102 @@ except:
 
 #----------------------------------------------------------------------------------
 parag.new(1,"NumPy")
-import numpy as np #np est un alias pour numpy
-import matplotlib.pyplot as plt
-
 print("NumPy est une bibliotheque Python pour travailler sur des tableaux")
 print("Les operations sur les tableaux NumPy sont 50 fois plus rapides qu\'avec les listes car les tableaux NumPy stockent les donnees de facon contigue en memoire")
 
-arr = np.array([1, 2, 3, 4, 5])
-print(arr)
-print("attention le '+' pour concatener les listes ne marche pas sur des array")
-print("il faut utiliser 'numpy.concatenate'")
-print(np.concatenate([[7], arr, [8]]))
-x = np.linspace(3, 9, 10)
-print("linspace(3, 9, 10) : " + str(x))
-print("Fonction appliquee a un tableau : np.sin(x) -> " )
-print(np.sin(x))
-print("Matrice (array)")
-a = np.array([[1, 3, 3],[1, 4, 3],[1, 3, 4]])
-print(a)
-print("type(a) = "+ str(type(a)))
-print("a[1,2] = " + str(a[1, 2]))
-print("Inverse (linalg.inv):")
-z=np.linalg.inv(a)
-print(z)
-print("Produit scalaire (a@b) : " +str(arr@arr));
-print("Produit matriciel (dot(M1,M2)) ou M1.dot(M2):")
-print(np.dot(a, z))
-print("np.arange(12).reshape((3,4)) = ")
-a = np.arange(12).reshape((3,4))
-print(a)
-print(type(a))
+try:
+    import numpy as np #np est un alias pour numpy
+    import matplotlib.pyplot as plt
+    
+    arr = np.array([1, 2, 3, 4, 5])
+    print(arr)
+    print(arr.shape)
+    print("attention le '+' pour concatener les listes ne marche pas sur des array")
+    print("il faut utiliser 'numpy.concatenate'")
+    print(np.concatenate([[7], arr, [8]]))
+    x = np.linspace(3, 9, 10)
+    print("linspace(3, 9, 10) : " + str(x))
+    print("Fonction appliquee a un tableau : np.sin(x) -> " )
+    print(np.sin(x))
+    print("Matrice (array)")
+    a = np.array([[1, 3, 3],[1, 4, 3],[1, 3, 4]])
+    print(a)
+    print("type(a) = "+ str(type(a)))
+    print("a[1,2] = " + str(a[1, 2]))
+    print("Inverse (linalg.inv):")
+    z=np.linalg.inv(a)
+    print(z)
+    print("Produit scalaire (a@b) : " +str(arr@arr));
+    print("Produit matriciel (dot(M1,M2)) ou M1.dot(M2):")
+    print(np.dot(a, z))
+    print("np.arange(12).reshape((3,4)) = ")
+    a = np.arange(12).reshape((3,4))
+    print(a)
+    print(type(a))
+    
+    parag.new(2,"Manipulation de matrices")
+    print("A.size renvoie le nombre total d elements")
+    print("A.shape renvoie un tuple les dimensions")
+    print("M = np.zeros((N,N)) (tuple en arg car la matrice n'est pas forcement carree")
+    print("M = eye(n)")
+    print("Manipulation de bloc : M[i:i+n,i:i+n] = A")
+    print("Les notations des listes sont valides : V[5:]")
+    print("A = np.random.rand(n,n)")
+    print("A=B A et B referencent la meme matrice")
+    print("A=B.copy()")
+    
+    def genereM(A):
+        #avec des np_array
+        dim = A.shape
+        n = dim[0]
+        N=n*n
+        M = np.zeros((N,N))
+        for i in range(0,N-n+1,n):
+            M[i:i+n,i:i+n]=A
+        for i in range(0,N-2*n+1,n):
+            M[i:i+n,i+n:i+2*n]=-np.eye(n)
+            M[i+n:i+2*n,i:i+n]=-np.eye(n)
+        return M
+    
+    n=10
+    A = np.ones((n,n))
+    M = genereM(A)
+    
+    parag.new(2,"Tracer des courbes (matplotlib.pyplot)")
+    print("subplot(nb lignes, nb col, numero plot courant)")
+    plt.subplot(1,2,1)
+    x = np.linspace(0, 2*np.pi, 30)
+    y1 = np.cos(x)
+    y2 = np.sin(x)
+    plt.xlabel('time (s)')
+    plt.title("Courbes");
+    #---
+    plt.plot(x, y1, label="cos(x)")
+    plt.plot(x, y2, label="sin(x)")
+    plt.legend()
+    
+    plt.subplot(1,2,2)
+    plt.spy(M)
+    plt.show()
+    
+    parag.new(2,"Courbe a partir de points non ordonnés")
 
-parag.new(2,"Manipulation de matrices")
-print("A.size renvoie le nombre total d elements")
-print("A.shape renvoie un tuple les dimensions")
-print("M = np.zeros((N,N)) (tuple en arg car la matrice n'est pas forcement carree")
-print("M = eye(n)")
-print("Manipulation de bloc : M[i:i+n,i:i+n] = A")
-print("Les notations des listes sont valides : V[5:]")
-print("A = np.random.rand(n,n)")
-print("A=B A et B referencent la meme matrice")
-print("A=B.copy()")
+    x=[0,25.4725,25.4303,12.7152,6.35758,3.17879,1.58939,0.794697,1.58358 ,1.18914 ,1.48316 ,1.33615,1.30299,1.31838,1.31707]
+    y=[65.0001,115.083,115.083,115.083,115.083,115.083,115.074,104.972,115.074,114.785,115.063,115.014,114.988,115.001,115     ]
 
-def genereM(A):
-    #avec des np_array
-    dim = A.shape
-    n = dim[0]
-    N=n*n
-    M = np.zeros((N,N))
-    for i in range(0,N-n+1,n):
-        M[i:i+n,i:i+n]=A
-    for i in range(0,N-2*n+1,n):
-        M[i:i+n,i+n:i+2*n]=-np.eye(n)
-        M[i+n:i+2*n,i:i+n]=-np.eye(n)
-    return M
+    x = np.array(x)
+    y = np.array(y)
+    
+    inds = x.argsort()
+    
+    plt.xlabel('Mfr')
+    plt.ylabel('Tout_s')
 
-n=10
-A = np.ones((n,n))
-M = genereM(A)
+    plt.plot(x[inds],y[inds])
+    
 
-parag.new(2,"Tracer des courbes (matplotlib.pyplot)")
-print("subplot(nb lignes, nb col, numero plot courant)")
-plt.subplot(1,2,1)
-x = np.linspace(0, 2*np.pi, 30)
-y1 = np.cos(x)
-y2 = np.sin(x)
-plt.xlabel('time (s)')
-plt.title("Courbes");
-#---
-plt.plot(x, y1, label="cos(x)")
-plt.plot(x, y2, label="sin(x)")
-plt.legend()
-
-plt.subplot(1,2,2)
-plt.spy(M)
-plt.show()
-
+except:    
+    print('Numpy non disponible')
 #----------------------------------------------------------------------------------
 parag.new(1,"Pytest")
 print("Il faut ajouter le chemin de pytest.exe dans le path (dossier Python38\Scripts)")
@@ -477,102 +540,110 @@ print(   "pytest -v -m webtest")
 #----------------------------------------------------------------------------------
 parag.new(1,"Acces internet")
 import urllib.request  #Used to make requests
-x = urllib.request.urlopen("http://www.meteofrance.com/previsions-meteo-france/voiron/38500")
-respData=x.read()
-respData = respData.decode('UTF8')
-print("Meteo Voiron")
-dates = re.findall(r'<dt><a>(.*?)</a></dt>',str(respData))
-min=re.findall(r'<span class="min-temp">(.*?)Minimale</span>',str(respData))
-max=re.findall(r'<span class="max-temp">(.*?)Maximale</span>',str(respData))
-title=re.findall(r'<li title="(.*?)">',str(respData))
-for i in range (0,len(dates)-1):
-    print("%6s %5s %5s %20s" % (dates[i], min[i], max[i], title[i]))
-print("")
+try:
+    x = urllib.request.urlopen("http://www.meteofrance.com/previsions-meteo-france/voiron/38500")
+    respData=x.read()
+    respData = respData.decode('UTF8')
+    print("Meteo Voiron")
+    dates = re.findall(r'<dt><a>(.*?)</a></dt>',str(respData))
+    min=re.findall(r'<span class="min-temp">(.*?)Minimale</span>',str(respData))
+    max=re.findall(r'<span class="max-temp">(.*?)Maximale</span>',str(respData))
+    title=re.findall(r'<li title="(.*?)">',str(respData))
+    for i in range (0,len(dates)-1):
+        print("%6s %5s %5s %20s" % (dates[i], min[i], max[i], title[i]))
+    print("")
+except:
+    print('Acces site Meteo France ne fonctionne pas')
 
 #----------------------------------------------------------------------------------
 parag.new(1,"Pandas")
-import pandas as pd
+
 print("Pandas est une bibliotheque Python pour l'analyse de donnees")
 print("On peut faire les memes operations que sur une table de base de donnees (count, join,...)")
 print("Un dataframe est un tableau a 2 dimensions dont les donnees sont potentiellement heterogenes")
 print("Les lignes et les colonnes peuvent avoir un nom")
 print("Un dataframe se comporte comme un dictionnaire dont les clefs sont les noms des colonnes et les valeurs sont des séries.")
 print("\n")
-print("Creer des donnees")
-df = pd.DataFrame([[1, 8], [4, 5], [7, 2]], index=['cobra', 'viper', 'sidewinder'], columns=['max_speed', 'shield'])
-print(df)
-print(type(df))
-print("Chaque colonne d'un datafrane est une serie --> s = df['max_speed']")
-s=df['max_speed']
-print(type(s))
 
-parag.new(2,"Selection des donnees")
-print("liste des colonnes --> list(df.columns)")
-print(list(df.columns))
-print("liste des lignes --> list(df.index)")
-print(list(df.index))
-print('\ntri par en-tete de colonne decroissant (axis=1 : colonne)')
-print(df.sort_index(axis=1, ascending=False))
-print('\ntri par valeur de colonne croissante :')
-print(df.sort_values(by='shield'))
-print('\nExtraire un bloc par label:')
-print(df.loc[['viper','cobra'], ['max_speed']])
-print(df.loc[:, ['max_speed']])
-print('\nExtraire un bloc par position:')
-print(df.iloc[1, 1:2])
-print('\nExtraire sur des booleens')
-print(df[df>4])
-print('\nAssignement conditionnel')
-df.loc[df['max_speed']>4,'shield'] = -1
-print('\nAjouter une colonne (age en col 1):')
-df.insert(1, "age", [6, 4, 9])
-print(df)
-print('\nSupprimer une colonne:')
-df1=df.drop(columns=['shield'])
-print(df1)
-print("\n")
+try:
+    import pandas as pd
+    
+    print("Creer des donnees")
+    df = pd.DataFrame([[1, 8], [4, 5], [7, 2]], index=['cobra', 'viper', 'sidewinder'], columns=['max_speed', 'shield'])
+    print(df)
+    print(type(df))
+    print("Chaque colonne d'un datafrane est une serie --> s = df['max_speed']")
+    s=df['max_speed']
+    print(type(s))
+    
+    parag.new(2,"Selection des donnees")
+    print("liste des colonnes --> list(df.columns)")
+    print(list(df.columns))
+    print("liste des lignes --> list(df.index)")
+    print(list(df.index))
+    print('\ntri par en-tete de colonne decroissant (axis=1 : colonne)')
+    print(df.sort_index(axis=1, ascending=False))
+    print('\ntri par valeur de colonne croissante :')
+    print(df.sort_values(by='shield'))
+    print('\nExtraire un bloc par label:')
+    print(df.loc[['viper','cobra'], ['max_speed']])
+    print(df.loc[:, ['max_speed']])
+    print('\nExtraire un bloc par position:')
+    print(df.iloc[1, 1:2])
+    print('\nExtraire sur des booleens')
+    print(df[df>4])
+    print('\nAssignement conditionnel')
+    df.loc[df['max_speed']>4,'shield'] = -1
+    print('\nAjouter une colonne (age en col 1):')
+    df.insert(1, "age", [6, 4, 9])
+    print(df)
+    print('\nSupprimer une colonne:')
+    df1=df.drop(columns=['shield'])
+    print(df1)
+    print("\n")
+    
+    parag.new(2,"csv")
+    print("Lire un fichier csv --> pd.read_csv()")
+    rs = pd.read_csv(".\\CogenSortie.csv", sep=';', decimal=',',skiprows=[1,2], na_values=['nan'], na_filter=True)
+    print("\n")
+    
+    print("Ecrire un df dans un fichier csv --> df.to_csv()")
+    df = pd.DataFrame([[720, 'St Jean'], [710, 'St Jean'], [900, 'St Jean']], index=['Guillaume', 'Pierre', 'Jean-Luc'], columns=['Points', 'club'])
+    df.to_csv('ping.csv', sep=';')
+    print("\n")
+    
+    parag.new(2,"Plot")
+    print("tracer une colonne avec matplotlib --> rs['Power'].plot()")
+    rs['Power'].plot()
+    print("les 20 premieres lignes --> rs['Power'][:20].plot()")
+    plt.figure()
+    rs['Power'][:20].plot()
+    plt.show()
+    
+    parag.new(2,"Operations")
+    print("Join:")
+    left = pd.DataFrame({'key': ['foo', 'bar'], 'lval': [1, 2]})
+    right = pd.DataFrame({'key': ['foo', 'bar'], 'rval': [4, 5]})
+    print(left)
+    print('------')
+    print(right)
+    print('------')
+    tot = pd.merge(left, right, on='key')
+    print(tot)
+    print('------')
+    print("Ajout de col:")
+    tot['sum'] = tot['lval']+tot['rval']
+    print(tot)
+    print('------')
+    print("Groupby:")
+    data = {"Team": ["Red Sox", "Red Sox", "Red Sox", "Red Sox", "Red Sox", "Red Sox", "Yankees", "Yankees", "Yankees", "Yankees", "Yankees", "Yankees"],
+            "Pos": ["Pitcher", "Pitcher", "Pitcher", "Not Pitcher", "Not Pitcher", "Not Pitcher", "Pitcher", "Pitcher", "Pitcher", "Not Pitcher", "Not Pitcher", "Not Pitcher"],
+            "Age": [24, 28, 40, 22, 29, 33, 31, 26, 21, 36, 25, 31]}
+    df = pd.DataFrame(data)
+    print(df)
+    # group by Team, get mean, min, and max value of Age for each value of Team.
+    grouped_single = df.groupby('Team').agg({'Age': ['mean', 'min', 'max']})
+    print(grouped_single)
 
-parag.new(2,"csv")
-print("Lire un fichier csv --> pd.read_csv()")
-rs = pd.read_csv(".\\CogenSortie.csv", sep=';', decimal=',',skiprows=[1,2], na_values=['nan'], na_filter=True)
-print("\n")
-
-print("Ecrire un df dans un fichier csv --> df.to_csv()")
-df = pd.DataFrame([[720, 'St Jean'], [710, 'St Jean'], [900, 'St Jean']], index=['Guillaume', 'Pierre', 'Jean-Luc'], columns=['Points', 'club'])
-df.to_csv('ping.csv', sep=';')
-print("\n")
-
-parag.new(2,"Plot")
-print("tracer une colonne avec matplotlib --> rs['Power'].plot()")
-rs['Power'].plot()
-print("les 20 premieres lignes --> rs['Power'][:20].plot()")
-plt.figure()
-rs['Power'][:20].plot()
-plt.show()
-
-parag.new(2,"Operations")
-print("Join:")
-left = pd.DataFrame({'key': ['foo', 'bar'], 'lval': [1, 2]})
-right = pd.DataFrame({'key': ['foo', 'bar'], 'rval': [4, 5]})
-print(left)
-print('------')
-print(right)
-print('------')
-tot = pd.merge(left, right, on='key')
-print(tot)
-print('------')
-print("Ajout de col:")
-tot['sum'] = tot['lval']+tot['rval']
-print(tot)
-print('------')
-print("Groupby:")
-data = {"Team": ["Red Sox", "Red Sox", "Red Sox", "Red Sox", "Red Sox", "Red Sox", "Yankees", "Yankees", "Yankees", "Yankees", "Yankees", "Yankees"],
-		"Pos": ["Pitcher", "Pitcher", "Pitcher", "Not Pitcher", "Not Pitcher", "Not Pitcher", "Pitcher", "Pitcher", "Pitcher", "Not Pitcher", "Not Pitcher", "Not Pitcher"],
-		"Age": [24, 28, 40, 22, 29, 33, 31, 26, 21, 36, 25, 31]}
-df = pd.DataFrame(data)
-print(df)
-# group by Team, get mean, min, and max value of Age for each value of Team.
-grouped_single = df.groupby('Team').agg({'Age': ['mean', 'min', 'max']})
-print(grouped_single)
-
-
+except:
+    print('Pandas non disponible')

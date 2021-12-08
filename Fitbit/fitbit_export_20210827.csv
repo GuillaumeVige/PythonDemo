@@ -1,0 +1,1152 @@
+Corps
+Date,Poids,IMC,Matière grasse
+"01-01-2021,""72,43"",""22,36"",""0"""
+"02-01-2021,""72,37"",""22,34"",""0"""
+"03-01-2021,""72,3"",""22,31"",""0"""
+"04-01-2021,""72,7"",""22,44"",""0"""
+"05-01-2021,""72,1"",""22,25"",""0"""
+"06-01-2021,""72,4"",""22,35"",""0"""
+"07-01-2021,""72,5"",""22,38"",""0"""
+"08-01-2021,""72,1"",""22,25"",""0"""
+"09-01-2021,""72,3"",""22,31"",""0"""
+"10-01-2021,""72,2"",""22,28"",""0"""
+"11-01-2021,""72,4"",""22,35"",""0"""
+"12-01-2021,""72,8"",""22,47"",""0"""
+"13-01-2021,""72,2"",""22,28"",""0"""
+"14-01-2021,""72,5"",""22,38"",""0"""
+"15-01-2021,""72"",""22,22"",""0"""
+"16-01-2021,""71,7"",""22,13"",""0"""
+"17-01-2021,""71,7"",""22,13"",""0"""
+"18-01-2021,""72,4"",""22,35"",""0"""
+"19-01-2021,""71,8"",""22,16"",""0"""
+"20-01-2021,""71,7"",""22,13"",""0"""
+"21-01-2021,""71,8"",""22,16"",""0"""
+"22-01-2021,""71,9"",""22,19"",""0"""
+"23-01-2021,""72,2"",""22,28"",""0"""
+"24-01-2021,""72,5"",""22,38"",""0"""
+"25-01-2021,""72,2"",""22,28"",""0"""
+"26-01-2021,""72,5"",""22,38"",""0"""
+"27-01-2021,""72,3"",""22,31"",""0"""
+"28-01-2021,""71,5"",""22,07"",""0"""
+"29-01-2021,""72,2"",""22,28"",""0"""
+"30-01-2021,""72,5"",""22,38"",""0"""
+"31-01-2021,""71,8"",""22,16"",""0"""
+
+Aliments
+Date,Teneur calorique de
+"01-01-2021,""2 161"""
+"02-01-2021,""2 263"""
+"03-01-2021,""2 701"""
+"04-01-2021,""2 545"""
+"05-01-2021,""2 410"""
+"06-01-2021,""2 146"""
+"07-01-2021,""2 063"""
+"08-01-2021,""2 309"""
+"09-01-2021,""2 120"""
+"10-01-2021,""1 900"""
+"11-01-2021,""2 019"""
+"12-01-2021,""1 864"""
+"13-01-2021,""1 878"""
+"14-01-2021,""2 042"""
+"15-01-2021,""2 287"""
+"16-01-2021,""2 064"""
+"17-01-2021,""2 379"""
+"18-01-2021,""2 357"""
+"19-01-2021,""2 178"""
+"20-01-2021,""2 068"""
+"21-01-2021,""2 142"""
+"22-01-2021,""2 077"""
+"23-01-2021,""2 018"""
+"24-01-2021,""2 364"""
+"25-01-2021,""1 917"""
+"26-01-2021,""2 080"""
+"27-01-2021,""2 135"""
+"28-01-2021,""1 973"""
+"29-01-2021,""1 965"""
+"30-01-2021,""2 187"""
+"31-01-2021,""2 408"""
+
+Activités
+Date,Calories brûlées,Pas,Distance,Étages,Minutes Sédentaire,Minutes Peu Actives,Minutes Assez Actives,Minutes Très actif,Dépense calorique
+"01-01-2021,""2 666"",""9 129"",""6,82"",""99"",""667"",""239"",""13"",""26"",""1 304"""
+"02-01-2021,""3 348"",""18 713"",""13,98"",""236"",""609"",""189"",""29"",""135"",""2 098"""
+"03-01-2021,""2 404"",""8 189"",""6,12"",""14"",""816"",""193"",""6"",""36"",""1 022"""
+"04-01-2021,""2 534"",""10 878"",""8,72"",""31"",""738"",""100"",""7"",""62"",""1 044"""
+"05-01-2021,""2 713"",""10 092"",""7,54"",""39"",""811"",""116"",""8"",""84"",""1 280"""
+"06-01-2021,""2 840"",""12 425"",""9,88"",""65"",""713"",""132"",""6"",""73"",""1 361"""
+"07-01-2021,""2 495"",""9 126"",""6,82"",""34"",""722"",""140"",""31"",""56"",""1 097"""
+"08-01-2021,""2 522"",""9 824"",""7,92"",""46"",""889"",""111"",""4"",""56"",""1 032"""
+"09-01-2021,""3 082"",""12 972"",""9,7"",""142"",""663"",""185"",""42"",""88"",""1 717"""
+"10-01-2021,""3 091"",""16 095"",""12,02"",""179"",""684"",""144"",""44"",""115"",""1 782"""
+"11-01-2021,""2 499"",""10 218"",""7,63"",""59"",""858"",""92"",""11"",""74"",""1 063"""
+"12-01-2021,""2 693"",""11 997"",""9,56"",""60"",""809"",""125"",""11"",""73"",""1 261"""
+"13-01-2021,""2 388"",""8 361"",""6,25"",""40"",""834"",""107"",""10"",""57"",""938"""
+"14-01-2021,""2 606"",""11 106"",""8,88"",""28"",""844"",""126"",""5"",""64"",""1 141"""
+"15-01-2021,""2 546"",""10 081"",""7,53"",""45"",""832"",""97"",""13"",""70"",""1 107"""
+"16-01-2021,""2 992"",""13 916"",""10,4"",""174"",""484"",""182"",""28"",""90"",""1 667"""
+"17-01-2021,""2 498"",""8 876"",""6,63"",""112"",""802"",""155"",""17"",""59"",""1 111"""
+"18-01-2021,""2 856"",""14 008"",""11,12"",""65"",""789"",""140"",""6"",""84"",""1 453"""
+"19-01-2021,""2 691"",""11 996"",""8,96"",""67"",""515"",""130"",""14"",""80"",""1 290"""
+"20-01-2021,""2 751"",""8 754"",""6,54"",""83"",""546"",""218"",""49"",""35"",""1 433"""
+"21-01-2021,""2 728"",""13 120"",""10,43"",""78"",""595"",""116"",""6"",""87"",""1 305"""
+"22-01-2021,""2 477"",""10 128"",""7,57"",""45"",""714"",""102"",""7"",""76"",""1 022"""
+"23-01-2021,""3 084"",""14 828"",""11,08"",""200"",""661"",""171"",""21"",""113"",""1 770"""
+"24-01-2021,""2 941"",""15 959"",""11,92"",""155"",""637"",""143"",""32"",""110"",""1 620"""
+"25-01-2021,""2 545"",""9 625"",""7,2"",""49"",""843"",""119"",""14"",""67"",""1 131"""
+"26-01-2021,""2 619"",""10 630"",""8,56"",""45"",""687"",""138"",""1"",""59"",""1 164"""
+"27-01-2021,""3 005"",""13 358"",""9,98"",""197"",""680"",""128"",""21"",""103"",""1 638"""
+"28-01-2021,""2 538"",""9 988"",""8,02"",""25"",""778"",""97"",""5"",""60"",""1 071"""
+"29-01-2021,""2 551"",""9 632"",""7,2"",""41"",""835"",""99"",""24"",""71"",""1 124"""
+"30-01-2021,""2 658"",""11 585"",""8,65"",""32"",""806"",""123"",""19"",""85"",""1 246"""
+"31-01-2021,""3 745"",""19 095"",""14,26"",""307"",""658"",""213"",""36"",""152"",""2 503"""
+
+Sommeil
+Heure de début,Heure de fin,Minutes de sommeil,Minutes d'éveil,Nombre de réveils,Temps passé au lit,Minutes passées en sommeil paradoxal,Minutes passées en sommeil léger,Minutes passées en sommeil profond
+"31-01-2021 12:48AM,""31-01-2021 7:09AM"",""347"",""34"",""24"",""381"",""57"",""237"",""53"""
+"29-01-2021 11:54PM,""30-01-2021 6:41AM"",""358"",""49"",""18"",""407"",""120"",""189"",""49"""
+"28-01-2021 11:49PM,""29-01-2021 6:40AM"",""370"",""41"",""19"",""411"",""75"",""248"",""47"""
+"28-01-2021 7:59PM,""28-01-2021 10:34PM"",""134"",""21"",""1"",""155"",""S.O."",""S.O."",""S.O."""
+"28-01-2021 12:48AM,""28-01-2021 6:34AM"",""273"",""72"",""14"",""345"",""29"",""223"",""21"""
+"27-01-2021 9:56PM,""27-01-2021 10:59PM"",""60"",""3"",""0"",""63"",""S.O."",""S.O."",""S.O."""
+"27-01-2021 5:43PM,""27-01-2021 6:58PM"",""64"",""11"",""1"",""75"",""S.O."",""S.O."",""S.O."""
+"27-01-2021 12:15AM,""27-01-2021 6:25AM"",""299"",""71"",""10"",""370"",""38"",""230"",""31"""
+"25-01-2021 9:29PM,""26-01-2021 6:44AM"",""468"",""87"",""22"",""555"",""104"",""324"",""40"""
+"25-01-2021 12:08AM,""25-01-2021 6:46AM"",""341"",""56"",""11"",""397"",""82"",""210"",""49"""
+"24-01-2021 9:13PM,""24-01-2021 10:31PM"",""72"",""6"",""1"",""78"",""S.O."",""S.O."",""S.O."""
+"23-01-2021 11:35PM,""24-01-2021 7:20AM"",""444"",""21"",""2"",""465"",""S.O."",""S.O."",""S.O."""
+"23-01-2021 5:54PM,""23-01-2021 7:16PM"",""72"",""10"",""2"",""82"",""S.O."",""S.O."",""S.O."""
+"23-01-2021 12:46AM,""23-01-2021 6:53AM"",""318"",""49"",""9"",""367"",""89"",""197"",""32"""
+"22-01-2021 8:21PM,""22-01-2021 10:40PM"",""127"",""12"",""0"",""139"",""S.O."",""S.O."",""S.O."""
+"22-01-2021 12:10AM,""22-01-2021 6:53AM"",""343"",""59"",""17"",""402"",""92"",""204"",""47"""
+"21-01-2021 7:59PM,""21-01-2021 11:05PM"",""155"",""31"",""12"",""186"",""21"",""130"",""4"""
+"20-01-2021 11:24PM,""21-01-2021 6:54AM"",""395"",""55"",""29"",""450"",""64"",""316"",""15"""
+"20-01-2021 8:34PM,""20-01-2021 9:59PM"",""81"",""4"",""0"",""85"",""S.O."",""S.O."",""S.O."""
+"20-01-2021 5:52PM,""20-01-2021 6:58PM"",""61"",""5"",""0"",""66"",""S.O."",""S.O."",""S.O."""
+"19-01-2021 9:29PM,""20-01-2021 7:21AM"",""530"",""62"",""6"",""592"",""S.O."",""S.O."",""S.O."""
+"18-01-2021 9:37PM,""19-01-2021 6:49AM"",""473"",""78"",""33"",""551"",""92"",""346"",""35"""
+"17-01-2021 11:48PM,""18-01-2021 6:50AM"",""373"",""48"",""22"",""421"",""102"",""225"",""46"""
+"17-01-2021 12:08AM,""17-01-2021 6:55AM"",""349"",""58"",""20"",""407"",""95"",""197"",""57"""
+"16-01-2021 6:21PM,""16-01-2021 7:26PM"",""61"",""4"",""0"",""65"",""S.O."",""S.O."",""S.O."""
+"15-01-2021 9:45PM,""16-01-2021 7:37AM"",""496"",""95"",""27"",""591"",""124"",""248"",""124"""
+"14-01-2021 11:36PM,""15-01-2021 6:44AM"",""370"",""58"",""20"",""428"",""67"",""259"",""44"""
+"14-01-2021 12:10AM,""14-01-2021 6:52AM"",""333"",""68"",""16"",""401"",""66"",""205"",""62"""
+"12-01-2021 11:50PM,""13-01-2021 7:03AM"",""362"",""70"",""22"",""432"",""54"",""234"",""74"""
+"11-01-2021 11:48PM,""12-01-2021 6:50AM"",""358"",""64"",""17"",""422"",""75"",""235"",""48"""
+"11-01-2021 12:02AM,""11-01-2021 6:47AM"",""347"",""58"",""17"",""405"",""61"",""274"",""12"""
+"10-01-2021 12:12AM,""10-01-2021 7:45AM"",""401"",""52"",""17"",""453"",""128"",""200"",""73"""
+"09-01-2021 7:55PM,""09-01-2021 9:20PM"",""79"",""6"",""0"",""85"",""S.O."",""S.O."",""S.O."""
+"09-01-2021 12:32AM,""09-01-2021 6:49AM"",""333"",""44"",""11"",""377"",""76"",""218"",""39"""
+"08-01-2021 12:13AM,""08-01-2021 6:34AM"",""337"",""43"",""15"",""380"",""53"",""243"",""41"""
+"07-01-2021 9:38PM,""07-01-2021 10:41PM"",""52"",""8"",""0"",""62"",""S.O."",""S.O."",""S.O."""
+"06-01-2021 11:48PM,""07-01-2021 6:58AM"",""356"",""73"",""18"",""429"",""89"",""212"",""55"""
+"06-01-2021 9:15PM,""06-01-2021 10:35PM"",""64"",""16"",""0"",""80"",""S.O."",""S.O."",""S.O."""
+"05-01-2021 11:35PM,""06-01-2021 6:51AM"",""376"",""60"",""18"",""436"",""134"",""172"",""70"""
+"05-01-2021 12:15AM,""05-01-2021 7:16AM"",""345"",""76"",""13"",""421"",""90"",""210"",""45"""
+"04-01-2021 8:34PM,""04-01-2021 10:19PM"",""97"",""8"",""1"",""105"",""S.O."",""S.O."",""S.O."""
+"03-01-2021 11:45PM,""04-01-2021 6:53AM"",""378"",""50"",""15"",""428"",""92"",""235"",""51"""
+"03-01-2021 12:40AM,""03-01-2021 7:10AM"",""338"",""51"",""19"",""389"",""58"",""209"",""71"""
+"02-01-2021 8:16PM,""02-01-2021 10:01PM"",""99"",""6"",""0"",""105"",""S.O."",""S.O."",""S.O."""
+"02-01-2021 12:42AM,""02-01-2021 6:55AM"",""341"",""32"",""18"",""373"",""90"",""176"",""75"""
+"01-01-2021 8:33PM,""01-01-2021 9:44PM"",""64"",""7"",""1"",""71"",""S.O."",""S.O."",""S.O."""
+"01-01-2021 1:31AM,""01-01-2021 8:35AM"",""377"",""47"",""19"",""424"",""82"",""227"",""68"""
+
+Mon alimentation 20210101
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Chocolat"",""59"""
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+",""Pain complet au son"",""270"""
+Déjeuner
+",""Comté"",""238"""
+",""Pain complet au son"",""135"""
+",""Tarte aux Oignons"",""266"""
+Snack de l'après-midi
+",""Brioche Tressée Pépites de Chocolat"",""298"""
+Dîner
+",""Tortilla Chips"",""25"""
+",""Olives Vertes"",""15"""
+",""Pomme"",""52"""
+",""toasts"",""32"""
+",""Pâté de foie"",""47"""
+",""Framboisier"",""67"""
+",""Pâtes Carbonara"",""573"""
+Totaux quotidiens
+",""Calories"",""2 161"""
+",""Mat."",""55 g"""
+",""Fibres"",""23 g"""
+",""Gluc."",""263 g"""
+",""Sodium"",""2 403 mg"""
+",""Protéines"",""56 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210102
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Noix de Cajou Grillées au Miel"",""70"""
+",""Chocolat"",""59"""
+",""Pain complet au son"",""270"""
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+Déjeuner
+",""Amandes"",""140"""
+",""Chocolat"",""59"""
+",""Comté"",""238"""
+",""Pâté de foie"",""233"""
+",""Pain complet au son"",""270"""
+Dîner
+",""Yaourt 0% Fraise"",""59"""
+",""Pomme"",""52"""
+",""Croziflette"",""729"""
+Totaux quotidiens
+",""Calories"",""2 263"""
+",""Mat."",""75 g"""
+",""Fibres"",""26 g"""
+",""Gluc."",""203 g"""
+",""Sodium"",""2 168 mg"""
+",""Protéines"",""67 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210103
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""227"""
+",""Confiture Figue"",""49"""
+",""Chocolat"",""59"""
+",""Kiwi"",""34"""
+",""Beurre"",""35"""
+Déjeuner
+",""Chocolat"",""107"""
+",""Mayonnaise"",""17"""
+",""Galette Frangipane"",""471"""
+",""Ketchup"",""15"""
+",""Gratin Dauphinois"",""376"""
+",""Boeuf (coeur)"",""151"""
+",""Cidre de pomme"",""60"""
+Dîner
+",""Pâtes Carbonara"",""382"""
+",""Galette Frangipane"",""471"""
+",""Comté"",""99"""
+",""Yaourt 0% Fraise"",""59"""
+",""Pain complet au son"",""56"""
+",""Vinaigrette"",""33"""
+Totaux quotidiens
+",""Calories"",""2 701"""
+",""Mat."",""114 g"""
+",""Fibres"",""19 g"""
+",""Gluc."",""279 g"""
+",""Sodium"",""2 351 mg"""
+",""Protéines"",""58 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210104
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+",""Pain complet au son"",""281"""
+",""Chocolat"",""59"""
+",""Pomme"",""52"""
+Déjeuner
+",""Galette Frangipane"",""471"""
+",""Croziflette"",""681"""
+",""Yaourt 0% Fraise"",""59"""
+",""Pomme"",""52"""
+Snack de l'après-midi
+",""Brioche Tressée Pépites de Chocolat"",""224"""
+",""Orange"",""40"""
+Dîner
+",""Gratin Dauphinois"",""245"""
+",""Amandes"",""175"""
+",""Boeuf (coeur)"",""63"""
+",""Yaourt 0% Fraise"",""59"""
+Totaux quotidiens
+",""Calories"",""2 545"""
+",""Mat."",""121 g"""
+",""Fibres"",""23 g"""
+",""Gluc."",""255 g"""
+",""Sodium"",""2 762 mg"""
+",""Protéines"",""77 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210105
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Chocolat"",""59"""
+",""Pain complet au son"",""245"""
+",""Beurre"",""35"""
+",""Confiture Figue"",""49"""
+Déjeuner
+",""Croziflette"",""729"""
+",""Galette Frangipane"",""471"""
+Dîner
+",""Yaourt 0% Fraise"",""59"""
+",""Pâtes Carbonara"",""325"""
+",""Vinaigrette"",""33"""
+",""Pain complet au son"",""113"""
+",""Oranges"",""62"""
+",""Bouchée à la Reine"",""230"""
+Totaux quotidiens
+",""Calories"",""2 410"""
+",""Mat."",""112 g"""
+",""Fibres"",""23 g"""
+",""Gluc."",""257 g"""
+",""Sodium"",""2 584 mg"""
+",""Protéines"",""78 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210106
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Oranges"",""62"""
+",""Pain complet au son"",""236"""
+",""Beurre"",""35"""
+",""Confiture Figue"",""49"""
+",""Chocolat"",""59"""
+Déjeuner
+",""Crème fraîche"",""60"""
+",""Fromage"",""175"""
+",""Lieu jaune d'Atlantique cuit"",""236"""
+",""Panais"",""113"""
+",""Pain complet au son"",""146"""
+Dîner
+",""Pain complet au son"",""68"""
+",""Lait"",""37"""
+",""Compote de pommes, sans sucre"",""105"""
+",""Fromage"",""105"""
+",""Muesli (Fruits Secs et Noix)"",""167"""
+",""Quiche Poireaux"",""460"""
+",""Vinaigrette"",""33"""
+Totaux quotidiens
+",""Calories"",""2 146"""
+",""Mat."",""72 g"""
+",""Fibres"",""34 g"""
+",""Gluc."",""246 g"""
+",""Sodium"",""2 516 mg"""
+",""Protéines"",""110 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210107
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""284"""
+",""Chocolat"",""59"""
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+Déjeuner
+",""Pain complet au son"",""68"""
+",""Comté"",""119"""
+",""Poulet"",""210"""
+",""Riz blanc cuit"",""117"""
+",""Chocolat"",""59"""
+",""Panais"",""113"""
+",""Compote de pommes, sans sucre"",""55"""
+",""Crème fraîche"",""120"""
+Snack de l'après-midi
+",""Kiwi"",""34"""
+",""Pomme"",""36"""
+Dîner
+",""Quiche Poireaux"",""438"""
+",""Vinaigrette"",""33"""
+",""Yaourt 0% Fraise"",""59"""
+",""Pain complet au son"",""68"""
+",""Comté"",""107"""
+Totaux quotidiens
+",""Calories"",""2 063"""
+",""Mat."",""46 g"""
+",""Fibres"",""26 g"""
+",""Gluc."",""189 g"""
+",""Sodium"",""1 337 mg"""
+",""Protéines"",""40 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210108
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Beurre"",""35"""
+",""Chocolat"",""59"""
+",""Pain complet au son"",""248"""
+",""Pomme"",""52"""
+",""Confiture Figue"",""49"""
+Déjeuner
+",""boursin"",""48"""
+",""Compote de pommes, sans sucre"",""63"""
+",""Vinaigrette"",""33"""
+",""Pain complet au son"",""90"""
+",""Quiche Poireaux"",""263"""
+",""Sardine à l'huile"",""80"""
+",""Chocolat"",""59"""
+Dîner
+",""Pizza Blanche"",""1 110"""
+",""Yaourt 0% Fraise"",""59"""
+Après le dîner
+",""Jus Multifruits"",""61"""
+Totaux quotidiens
+",""Calories"",""2 309"""
+",""Mat."",""77 g"""
+",""Fibres"",""22 g"""
+",""Gluc."",""299 g"""
+",""Sodium"",""3 276 mg"""
+",""Protéines"",""81 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210109
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Chocolat"",""59"""
+",""Beurre"",""35"""
+",""Confiture Figue"",""49"""
+",""Pain complet au son"",""281"""
+Déjeuner
+",""Riz complet cuit"",""216"""
+",""Pain complet au son"",""68"""
+",""Fromage"",""105"""
+",""Crumble aux pommes"",""111"""
+",""Chocolat"",""59"""
+",""Poulet"",""150"""
+Dîner
+",""Fromage"",""105"""
+",""Pain complet au son"",""90"""
+",""Fromage"",""105"""
+",""Riz complet cuit"",""98"""
+",""Pizza Blanche"",""296"""
+",""Compote de pommes, sans sucre"",""46"""
+",""Poulet"",""90"""
+Après le dîner
+",""Pomme"",""47"""
+",""Noix"",""40"""
+",""Amandes"",""70"""
+Totaux quotidiens
+",""Calories"",""2 120"""
+",""Mat."",""51 g"""
+",""Fibres"",""23 g"""
+",""Gluc."",""205 g"""
+",""Sodium"",""2 319 mg"""
+",""Protéines"",""55 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210110
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Chocolat"",""59"""
+",""Beurre"",""35"""
+",""Confiture Figue"",""49"""
+",""Pain complet au son"",""277"""
+Déjeuner
+",""Pain complet au son"",""169"""
+",""Mandarine"",""32"""
+",""Pâté de campagne"",""114"""
+",""Fromage"",""123"""
+",""Cake Salé"",""89"""
+",""Dates séchées"",""184"""
+Snack de l'après-midi
+",""Gâteau au chocolat"",""92"""
+Dîner
+",""Carottes crues"",""30"""
+",""Cake Salé"",""297"""
+",""Fromage"",""88"""
+",""Vinaigrette"",""67"""
+",""Crumble aux pommes"",""133"""
+",""Thon, en boîte, conservé dans l'eau "",""17"""
+",""Pain complet au son"",""45"""
+Totaux quotidiens
+",""Calories"",""1 900"""
+",""Mat."",""52 g"""
+",""Fibres"",""29 g"""
+",""Gluc."",""265 g"""
+",""Sodium"",""2 453 mg"""
+",""Protéines"",""53 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210111
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Confiture Figue"",""49"""
+",""Chocolat"",""59"""
+",""Pain complet au son"",""259"""
+",""Beurre"",""35"""
+Déjeuner
+",""Poulet"",""150"""
+",""Crumble aux pommes"",""137"""
+",""Fromage"",""105"""
+",""Riz complet cuit"",""245"""
+",""Pain complet au son"",""68"""
+Snack de l'après-midi
+",""Pain complet au son"",""68"""
+",""Orange"",""60"""
+",""Fromage"",""105"""
+Dîner
+",""Pain complet au son"",""68"""
+",""Fromage"",""105"""
+",""Compote de pommes, sans sucre"",""63"""
+",""Vinaigrette"",""67"""
+",""Thon, en boîte, conservé dans l'eau "",""17"""
+",""Cake Salé"",""327"""
+",""Carottes crues"",""32"""
+Totaux quotidiens
+",""Calories"",""2 019"""
+",""Mat."",""53 g"""
+",""Fibres"",""24 g"""
+",""Gluc."",""209 g"""
+",""Sodium"",""2 534 mg"""
+",""Protéines"",""55 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210112
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Confiture Figue"",""49"""
+",""Chocolat"",""59"""
+",""Pain complet au son"",""295"""
+",""Beurre"",""35"""
+Déjeuner
+",""Fromage"",""105"""
+",""Pain complet au son"",""68"""
+",""Crumble aux pommes"",""178"""
+",""Poulet"",""113"""
+",""Riz complet cuit"",""235"""
+Dîner
+",""Riz complet cuit"",""196"""
+",""Vinaigrette"",""67"""
+",""Cake Salé"",""357"""
+",""Compote de pommes, sans sucre"",""67"""
+",""Carottes crues"",""40"""
+Totaux quotidiens
+",""Calories"",""1 864"""
+",""Mat."",""37 g"""
+",""Fibres"",""22 g"""
+",""Gluc."",""205 g"""
+",""Sodium"",""1 782 mg"""
+",""Protéines"",""35 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210113
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""270"""
+",""Chocolat"",""59"""
+",""Orange"",""60"""
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+Déjeuner
+",""Yaourt 0% Fraise"",""59"""
+",""Fromage"",""105"""
+",""Pain complet au son"",""68"""
+",""Poire"",""73"""
+",""Saucisson Cuit à l'ail"",""363"""
+",""Chou"",""84"""
+Dîner
+",""Pain complet au son"",""79"""
+",""Fromage"",""123"""
+",""Pomme"",""52"""
+",""Galettes de Blé Noir"",""170"""
+",""Saumon Fumé"",""35"""
+",""Mayonnaise"",""57"""
+",""Carottes crues"",""24"""
+",""Yaourt 0% Fraise"",""59"""
+",""Courge"",""54"""
+Totaux quotidiens
+",""Calories"",""1 878"""
+",""Mat."",""65 g"""
+",""Fibres"",""18 g"""
+",""Gluc."",""174 g"""
+",""Sodium"",""2 352 mg"""
+",""Protéines"",""69 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210114
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Chocolat"",""59"""
+",""Chocolat"",""59"""
+",""Beurre"",""35"""
+",""Pain complet au son"",""270"""
+Déjeuner
+",""Saucisson Cuit à l'ail"",""182"""
+",""Yaourt 0% Fraise"",""59"""
+",""Orange"",""56"""
+",""Fromage"",""123"""
+",""Chou"",""95"""
+",""Pain complet au son"",""79"""
+",""Oeuf"",""65"""
+Snack de l'après-midi
+",""Pomme"",""52"""
+Dîner
+",""Fromage"",""88"""
+",""Lait"",""37"""
+",""Pain complet au son"",""56"""
+",""Yaourt 0% Fraise"",""59"""
+",""Oeuf"",""65"""
+",""Crème fraîche"",""60"""
+",""Jambon Blanc"",""46"""
+",""Galettes de Blé Noir"",""170"""
+",""Vinaigrette"",""33"""
+",""Gruyère"",""83"""
+",""Muesli (Fruits Secs et Noix)"",""211"""
+Totaux quotidiens
+",""Calories"",""2 042"""
+",""Mat."",""68 g"""
+",""Fibres"",""21 g"""
+",""Gluc."",""211 g"""
+",""Sodium"",""2 319 mg"""
+",""Protéines"",""87 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210115
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Confiture Figue"",""49"""
+",""Pain complet au son"",""279"""
+",""Chocolat"",""59"""
+",""Beurre"",""35"""
+Déjeuner
+",""Mandarine"",""32"""
+",""Riz complet cuit"",""274"""
+",""Crème fraîche"",""60"""
+",""Yaourt 0% Fraise"",""59"""
+",""Fromage"",""105"""
+",""Pomme"",""73"""
+",""Moules"",""56"""
+",""Pain complet au son"",""68"""
+Dîner
+",""Crème fraîche"",""90"""
+",""Moules"",""91"""
+",""Pain complet au son"",""79"""
+",""Mandarine"",""16"""
+",""Lait"",""32"""
+",""Riz complet cuit"",""221"""
+",""Muesli (Fruits Secs et Noix)"",""215"""
+",""Yaourt 0% Fraise"",""59"""
+",""Fromage"",""123"""
+Après le dîner
+",""Noisette"",""53"""
+",""Pain complet au son"",""83"""
+",""Nutella"",""76"""
+Totaux quotidiens
+",""Calories"",""2 287"""
+",""Mat."",""39 g"""
+",""Fibres"",""26 g"""
+",""Gluc."",""216 g"""
+",""Sodium"",""1 768 mg"""
+",""Protéines"",""57 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210116
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Chocolat"",""59"""
+",""Beurre"",""35"""
+",""Pain complet au son"",""268"""
+",""Confiture Figue"",""49"""
+Déjeuner
+",""Fromage"",""158"""
+",""Mandarine"",""37"""
+",""Pâté de campagne"",""150"""
+",""Chocolat"",""177"""
+",""Pain complet au son"",""225"""
+",""Barres Céréales"",""95"""
+Dîner
+",""Jambon Blanc"",""35"""
+",""Oeuf"",""65"""
+",""Gruyère"",""165"""
+",""Saumon Fumé"",""35"""
+",""Pomme"",""52"""
+",""Crème fraîche"",""60"""
+",""Galettes de Blé Noir"",""340"""
+",""Yaourt 0% Fraise"",""59"""
+Totaux quotidiens
+",""Calories"",""2 064"""
+",""Mat."",""55 g"""
+",""Fibres"",""23 g"""
+",""Gluc."",""244 g"""
+",""Sodium"",""2 905 mg"""
+",""Protéines"",""82 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210117
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+",""Pain complet au son"",""266"""
+",""Chocolat"",""59"""
+Déjeuner
+",""Tiramisu Framboise"",""315"""
+",""Poulet"",""135"""
+",""Pain complet au son"",""72"""
+",""Pâtes cuites"",""243"""
+",""Crème fraîche"",""78"""
+",""Comté"",""127"""
+",""Jus d'Orange"",""66"""
+Snack de l'après-midi
+",""Brioche"",""139"""
+",""Chocolat"",""43"""
+Dîner
+",""Soupe de Potiron"",""47"""
+",""Vinaigrette"",""50"""
+",""Pain complet au son"",""63"""
+",""Tiramisu Framboise"",""252"""
+",""Tarte aux Oignons"",""242"""
+",""Fromage"",""98"""
+Totaux quotidiens
+",""Calories"",""2 379"""
+",""Mat."",""52 g"""
+",""Fibres"",""17 g"""
+",""Gluc."",""238 g"""
+",""Sodium"",""2 122 mg"""
+",""Protéines"",""43 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210118
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Chocolat"",""64"""
+",""Confiture Figue"",""49"""
+",""Pain complet au son"",""54"""
+",""Beurre"",""35"""
+",""Brioche"",""398"""
+Déjeuner
+",""Pâtes cuites"",""243"""
+",""Pomme"",""73"""
+",""Tiramisu Framboise"",""315"""
+",""Poulet"",""135"""
+",""Crème fraîche"",""60"""
+Dîner
+",""Pâtes cuites"",""117"""
+",""Yaourt 0% Fraise"",""59"""
+",""Comté"",""119"""
+",""Vinaigrette"",""67"""
+",""Poulet"",""68"""
+",""Crème fraîche"",""30"""
+",""Avocat"",""161"""
+",""Pain complet au son"",""68"""
+",""Tarte aux Oignons"",""242"""
+Totaux quotidiens
+",""Calories"",""2 357"""
+",""Mat."",""47 g"""
+",""Fibres"",""16 g"""
+",""Gluc."",""156 g"""
+",""Sodium"",""428 mg"""
+",""Protéines"",""26 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210119
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Confiture Figue"",""49"""
+",""Pain complet au son"",""275"""
+",""Chocolat"",""59"""
+",""Beurre"",""35"""
+Déjeuner
+",""Crème fraîche"",""180"""
+",""Poulet"",""180"""
+",""Pomme"",""93"""
+",""Pâtes cuites"",""180"""
+",""Tiramisu Framboise"",""158"""
+Dîner
+",""Lait"",""45"""
+",""Fromage"",""115"""
+",""Vinaigrette"",""50"""
+",""Tarte aux Oignons"",""411"""
+",""Yaourt 0% Fraise"",""59"""
+",""Pain complet au son"",""74"""
+",""Muesli (Fruits Secs et Noix)"",""215"""
+Totaux quotidiens
+",""Calories"",""2 178"""
+",""Mat."",""50 g"""
+",""Fibres"",""23 g"""
+",""Gluc."",""242 g"""
+",""Sodium"",""1 317 mg"""
+",""Protéines"",""51 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210120
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Beurre"",""35"""
+",""Chocolat"",""59"""
+",""Confiture Figue"",""49"""
+",""Pain complet au son"",""263"""
+Déjeuner
+",""Cake Salé"",""386"""
+",""Châtaignes rôties"",""205"""
+Snack de l'après-midi
+",""Clafoutis"",""203"""
+Dîner
+",""Vinaigrette"",""33"""
+",""Yaourt 0% Fraise"",""59"""
+",""pizza"",""640"""
+",""Clafoutis"",""136"""
+Totaux quotidiens
+",""Calories"",""2 068"""
+",""Mat."",""43 g"""
+",""Fibres"",""18 g"""
+",""Gluc."",""210 g"""
+",""Sodium"",""1 689 mg"""
+",""Protéines"",""40 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210121
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""272"""
+",""Pomme"",""42"""
+",""Chocolat"",""59"""
+",""Beurre"",""35"""
+",""Confiture Figue"",""49"""
+Déjeuner
+",""Châtaignes rôties"",""103"""
+",""Clafoutis"",""203"""
+",""Yaourt 0% Fraise"",""59"""
+",""Vinaigrette"",""42"""
+",""Cake Salé"",""428"""
+Dîner
+",""Carottes"",""60"""
+",""Banane"",""105"""
+",""Cake Salé"",""297"""
+",""Thon, en boîte, conservé dans l'eau "",""96"""
+",""Vinaigrette"",""42"""
+",""Muesli (Fruits Secs et Noix)"",""209"""
+",""Lait"",""41"""
+Totaux quotidiens
+",""Calories"",""2 142"""
+",""Mat."",""62 g"""
+",""Fibres"",""30 g"""
+",""Gluc."",""317 g"""
+",""Sodium"",""2 603 mg"""
+",""Protéines"",""78 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210122
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""119"""
+",""Pain de mie"",""213"""
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+",""Chocolat"",""59"""
+Déjeuner
+",""Clafoutis"",""122"""
+",""Lieu"",""90"""
+",""Crème fraîche"",""60"""
+",""Navet"",""7"""
+",""Blé en grains entiers"",""148"""
+",""Pain complet au son"",""79"""
+",""Bavarois"",""73"""
+",""Poulet"",""105"""
+",""Panna Cotta"",""101"""
+Dîner
+",""Vinaigrette"",""33"""
+",""Fromage"",""105"""
+",""Wrap de Blé Complet"",""171"""
+",""Yaourt 0% Fraise"",""59"""
+",""Poulet"",""105"""
+",""Gruyere"",""62"""
+",""Carotte"",""38"""
+",""Pain complet au son"",""113"""
+",""Fajita"",""131"""
+Totaux quotidiens
+",""Calories"",""2 077"""
+",""Mat."",""43 g"""
+",""Fibres"",""23 g"""
+",""Gluc."",""200 g"""
+",""Sodium"",""1 817 mg"""
+",""Protéines"",""51 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210123
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Confiture Figue"",""49"""
+",""Chocolat"",""64"""
+",""Beurre"",""35"""
+",""Chocolat"",""59"""
+",""Pain complet au son"",""297"""
+Déjeuner
+",""Fromage"",""105"""
+",""Jus d'Orange"",""61"""
+",""Pain complet au son"",""124"""
+",""Chou"",""84"""
+",""Saucisses"",""396"""
+Dîner
+",""Comté"",""99"""
+",""Wrap de Blé Complet"",""171"""
+",""Mayonnaise"",""29"""
+",""Crevettes"",""73"""
+",""Yaourt 0% Fraise"",""59"""
+",""Pain complet au son"",""68"""
+",""Fajita"",""131"""
+",""Pomme"",""52"""
+",""Gruyere"",""62"""
+Totaux quotidiens
+",""Calories"",""2 018"""
+",""Mat."",""33 g"""
+",""Fibres"",""23 g"""
+",""Gluc."",""207 g"""
+",""Sodium"",""2 219 mg"""
+",""Protéines"",""65 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210124
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""279"""
+",""Beurre"",""35"""
+",""Chocolat"",""59"""
+",""Confiture Figue"",""49"""
+Déjeuner
+",""Poulet"",""60"""
+",""Pomme"",""36"""
+",""Mouton"",""133"""
+",""Merguez"",""113"""
+",""Paris Brest"",""276"""
+",""royal"",""210"""
+",""Carotte"",""15"""
+",""Semoule Cuite"",""225"""
+Dîner
+",""Nutella"",""81"""
+",""Mayonnaise"",""29"""
+",""Gruyere"",""62"""
+",""Pain complet au son"",""180"""
+",""Fromage"",""88"""
+",""Wrap de Blé Complet"",""171"""
+",""Crevettes"",""73"""
+",""Fajita"",""131"""
+",""Yaourt 0% Fraise"",""59"""
+Totaux quotidiens
+",""Calories"",""2 364"""
+",""Mat."",""60 g"""
+",""Fibres"",""24 g"""
+",""Gluc."",""254 g"""
+",""Sodium"",""2 841 mg"""
+",""Protéines"",""82 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210125
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""302"""
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+",""Chocolat"",""59"""
+Déjeuner
+",""Pomme"",""62"""
+",""Carotte"",""19"""
+",""Chou"",""98"""
+",""Fromage"",""105"""
+",""Poulet"",""60"""
+",""Mouton"",""133"""
+",""Pain complet au son"",""135"""
+Snack de l'après-midi
+",""Pain complet au son"",""79"""
+",""Nutella"",""65"""
+Dîner
+",""Saumon fumé"",""81"""
+",""Gruyere"",""62"""
+",""Wrap de Blé Complet"",""342"""
+",""Mandarine"",""32"""
+",""Crème fraîche"",""60"""
+",""Yaourt 0% Fraise"",""59"""
+",""Mayonnaise"",""57"""
+",""Carotte"",""23"""
+Totaux quotidiens
+",""Calories"",""1 917"""
+",""Mat."",""39 g"""
+",""Fibres"",""27 g"""
+",""Gluc."",""208 g"""
+",""Sodium"",""3 141 mg"""
+",""Protéines"",""64 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210126
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Beurre"",""35"""
+",""Confiture Figue"",""49"""
+",""Pain complet au son"",""290"""
+",""Chocolat"",""59"""
+Déjeuner
+",""Pomme"",""47"""
+",""Yaourt 0% Fraise"",""59"""
+",""Chou"",""98"""
+",""Pain complet au son"",""135"""
+",""Fromage"",""123"""
+",""Poulet"",""165"""
+Dîner
+",""Fromage"",""105"""
+",""Muesli aux fruits et noix"",""214"""
+",""Poire"",""92"""
+",""Semoule"",""252"""
+",""Mandarine"",""32"""
+",""Lait"",""44"""
+",""Pain complet au son"",""56"""
+",""Merguez"",""208"""
+",""Bouillon de Légumes"",""17"""
+Totaux quotidiens
+",""Calories"",""2 080"""
+",""Mat."",""33 g"""
+",""Fibres"",""26 g"""
+",""Gluc."",""228 g"""
+",""Sodium"",""4 820 mg"""
+",""Protéines"",""57 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210127
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""248"""
+",""Pamplemousse"",""60"""
+",""Beurre"",""35"""
+",""Sucre"",""32"""
+",""Chocolat"",""59"""
+",""Confiture Figue"",""49"""
+Déjeuner
+",""Hachis Parmentier"",""408"""
+",""Fromage"",""105"""
+",""Pomme"",""78"""
+",""Pain complet au son"",""68"""
+Snack de l'après-midi
+",""Muesli aux fruits et noix"",""214"""
+",""Lait"",""46"""
+Dîner
+",""Mandarine"",""32"""
+",""Saumon fumé"",""32"""
+",""Fromage"",""88"""
+",""Gruyere"",""30"""
+",""Quiche Poireaux"",""329"""
+",""Pain complet au son"",""56"""
+",""Vinaigrette"",""50"""
+",""Crème fraîche"",""30"""
+",""Wrap de Blé Complet"",""86"""
+Totaux quotidiens
+",""Calories"",""2 135"""
+",""Mat."",""74 g"""
+",""Fibres"",""29 g"""
+",""Gluc."",""248 g"""
+",""Sodium"",""3 144 mg"""
+",""Protéines"",""78 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210128
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Beurre"",""35"""
+",""Confiture Figue"",""49"""
+",""Pain complet au son"",""266"""
+",""Pomme"",""67"""
+",""Chocolat"",""59"""
+Déjeuner
+",""Hachis Parmentier"",""408"""
+",""Pain complet au son"",""54"""
+",""Pomme"",""104"""
+",""Fromage"",""140"""
+Dîner
+",""Mandarine"",""32"""
+",""Yaourt 0% Fraise"",""59"""
+",""Salade de Chou"",""49"""
+",""Brochette de Poisson"",""54"""
+",""Brochette de Boeuf"",""108"""
+",""Riz gluant blanc, cuit"",""63"""
+",""Sushi Saumon"",""144"""
+",""Maki Saumon"",""224"""
+",""Sauce au caramel, garniture"",""58"""
+Totaux quotidiens
+",""Calories"",""1 973"""
+",""Mat."",""43 g"""
+",""Fibres"",""27 g"""
+",""Gluc."",""288 g"""
+",""Sodium"",""3 444 mg"""
+",""Protéines"",""88 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210129
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Orange"",""72"""
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+",""Pain complet au son"",""281"""
+",""Chocolat"",""59"""
+Déjeuner
+",""Pain complet au son"",""68"""
+",""Quiche Poireaux"",""482"""
+",""Vinaigrette"",""17"""
+",""Pomme"",""78"""
+",""Hachis Parmentier"",""54"""
+",""Comté"",""119"""
+Dîner
+",""Fromage"",""175"""
+",""Pain complet au son"",""113"""
+",""Yaourt 0% Fraise"",""59"""
+",""Hachis Parmentier"",""272"""
+",""Mandarine"",""32"""
+Totaux quotidiens
+",""Calories"",""1 965"""
+",""Mat."",""67 g"""
+",""Fibres"",""24 g"""
+",""Gluc."",""205 g"""
+",""Sodium"",""2 559 mg"""
+",""Protéines"",""69 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210130
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Pain complet au son"",""277"""
+",""Chocolat"",""59"""
+",""Pomme"",""78"""
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+Déjeuner
+",""Pomme de Terre Cuite (Pelure à Ne Pas Mangée)"",""185"""
+",""Canard"",""250"""
+",""crumble"",""432"""
+",""tarte aux figues"",""75"""
+",""Fromage"",""112"""
+",""Pain complet au son"",""72"""
+Dîner
+",""Muesli aux fruits et noix"",""214"""
+",""Vinaigrette"",""50"""
+",""Comté"",""119"""
+",""Pain complet au son"",""68"""
+",""Lait"",""41"""
+",""Confiture Figue"",""25"""
+",""Yaourt Soja"",""46"""
+Totaux quotidiens
+",""Calories"",""2 187"""
+",""Mat."",""29 g"""
+",""Fibres"",""26 g"""
+",""Gluc."",""214 g"""
+",""Sodium"",""1 931 mg"""
+",""Protéines"",""38 g"""
+",""Eau"",""0 ml"""
+
+Mon alimentation 20210131
+Repas,Aliments,Calories
+Petit-déjeuner
+",""Confiture Figue"",""49"""
+",""Beurre"",""35"""
+",""Chocolat"",""59"""
+",""Pain complet au son"",""279"""
+Déjeuner
+",""Sablés Choco Noisette"",""222"""
+",""Pain complet au son"",""135"""
+",""Chocolat"",""134"""
+",""Cake à la banane et noix"",""100"""
+",""Fromage"",""105"""
+",""Pâté de campagne"",""137"""
+",""Pain complet au son"",""68"""
+Dîner
+",""crumble"",""480"""
+",""Quiche Poireaux"",""351"""
+",""Pomme"",""67"""
+",""Pâté de campagne"",""137"""
+",""Vinaigrette"",""50"""
+Totaux quotidiens
+",""Calories"",""2 408"""
+",""Mat."",""69 g"""
+",""Fibres"",""24 g"""
+",""Gluc."",""207 g"""
+",""Sodium"",""1 783 mg"""
+",""Protéines"",""45 g"""
+",""Eau"",""0 ml"""
